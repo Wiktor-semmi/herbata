@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Title</title>
+    <link rel="stylesheet" href="styles/animate.min.css">
+    <link rel="stylesheet" href="styles/hover-min.css">
+    <link rel="stylesheet" href="styles/magnific-popup.css">
+    <link rel="stylesheet" type="text/css" href="styles/custom.css">
+    <link rel="stylesheet" href="styles/jquery-ui.min.css">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-body-tertiary mb-4">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Logo</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Главная</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Преимущества</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Цены</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Контакты</a>
+                </li>
+            </ul>
+            <div class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Поиск чая" aria-label="Поиск чая">
+                <button class="btn btn-outline-primary"
+                        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: 1.45rem; --bs-btn-font-size: .95rem;">
+                    Найти
+                </button>
+            </div>
+        </div>
+    </div>
+</nav>
+<div id="carouselExample" class="carousel slide container-xxl mt-5 wow  animate__zoomIn" style="width: 75%">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="assets/images/tea1.png"  class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="assets/images/tea2.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="assets/images/tea2.png" class="d-block w-100" alt="...">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button"  data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon"  aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<div class="container container-lg" style="width: 75%">
+    <div class="px-0 py-4 my-4 text-center">
+        <h2 class="display-8 fw-bold text-body-emphasis">Наши чайные коллекции</h2>
+    </div>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 album">
+
+        <div class="col wow animate__backInLeft">
+            <a class="card shadow-sm" href="assets/images/image%202.png">
+                <img src="assets/images/image%202.png" alt="">
+                <div class="card-body">
+                    <div>
+                        <h5 class="card-title">Детокс чай лайм</h5>
+                    </div>
+                    <p class="card-text"> Великолепный чай внесет в вашу жизнь яркие краски и вкус расслабления</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group" style="width: 11rem;">
+                            <button type="button" class="btn btn-sm btn btn-primary hvr-shutter-out-horizontal"><font
+                                    style="vertical-align: inherit;"><font
+                                    style="vertical-align: inherit;">Подробнее</font></font>
+                            </button>
+                        </div>
+                        <small class="text-body-secondary"><font style="vertical-align: inherit;"><font
+                                style="vertical-align: inherit;"></font></font></small>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col wow  animate__bounceInDown">
+            <a class="card shadow-sm" href="assets/images/image%202-1.png">
+                <img src="assets/images/image%202-1.png" alt="">
+                <div class="card-body">
+                    <div>
+                        <h5>Ягодный чай</h5>
+                    </div>
+                    <p class="card-text"> Нотки ягод позволят вам расслабиться и насладиться великолепием этого чая</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group" style="width: 11rem;">
+                            <button type="button" class="btn btn-sm btn btn-primary hvr-shutter-out-horizontal"><font
+                                    style="vertical-align: inherit;"><font
+                                    style="vertical-align: inherit;">Подробнее</font></font>
+                            </button>
+                        </div>
+                        <small class="text-body-secondary"><font style="vertical-align: inherit;"><font
+                                style="vertical-align: inherit;"></font></font></small>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col wow animate__backInRight">
+            <a class="card shadow-sm" href="assets/images/image%202-2.png">
+                <img src="assets/images/image%202-2.png" alt="">
+                <div class="card-body">
+                    <div>
+                        <h5>Цветочный чай</h5>
+                    </div>
+                    <p class="card-text"> Душистые цветы создают невероятный аромат и наполняют вас энергией</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group" style="width: 11rem;">
+                            <button type="button" class="btn btn-sm btn btn-primary hvr-shutter-out-horizontal"><font
+                                    style="vertical-align: inherit;"><font
+                                    style="vertical-align: inherit;">Подробнее</font></font>
+                            </button>
+                        </div>
+                        <small class="text-body-secondary"><font style="vertical-align: inherit;"><font
+                                style="vertical-align: inherit;"></font></font></small>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col wow animate__backInLeft">
+            <a class="card shadow-sm" href="assets/images/image%202-3.png">
+                <img src="assets/images/image%202-3.png" alt="">
+                <div class="card-body">
+                    <div>
+                        <h5>Очищающий чай</h5>
+                    </div>
+                    <p class="card-text"> Бесподобный чай для получения утреннего заряда бодрости</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group" style="width: 11rem;">
+                            <button type="button" class="btn btn-sm btn btn-primary hvr-shutter-out-horizontal"><font
+                                    style="vertical-align: inherit;"><font
+                                    style="vertical-align: inherit;">Подробнее</font></font>
+                            </button>
+                        </div>
+                        <small class="text-body-secondary"><font style="vertical-align: inherit;"><font
+                                style="vertical-align: inherit;"></font></font></small>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col wow animate__backInUp">
+            <a class="card shadow-sm" href="assets/images/image%202-4.png">
+                <img src="assets/images/image%202-4.png" alt="">
+                <div class="card-body">
+                    <div>
+                        <h5>Кислый чай</h5>
+                    </div>
+                    <p class="card-text"> Кислый чай для настоящих ценителей кислинки во время чаепития</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group" style="width: 11rem;">
+                            <button type="button" class="btn btn-sm btn btn-primary hvr-shutter-out-horizontal"><font
+                                    style="vertical-align: inherit;"><font
+                                    style="vertical-align: inherit;">Подробнее</font></font>
+                            </button>
+                        </div>
+                        <small class="text-body-secondary"><font style="vertical-align: inherit;"><font
+                                style="vertical-align: inherit;"></font></font></small>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col wow animate__backInRight">
+            <a class="card shadow-sm" href="assets/images/image%202-5.png">
+                <img src="assets/images/image%202-5.png" alt="">
+                <div class="card-body">
+                    <div>
+                        <h5>Лимонная мята</h5>
+                    </div>
+                    <p class="card-text"> Смесь лимона с мятой сделает ваш день самым лучшим</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group" style="width: 11rem; text-decoration: none">
+                            <button type="button" class="btn btn-sm btn btn-primary hvr-shutter-out-horizontal"><font
+                                    style="vertical-align: inherit;"><font
+                                    style="vertical-align: inherit; ">Подробнее</font></font>
+                            </button>
+                        </div>
+                        <small class="text-body-secondary"><font style="vertical-align: inherit;"><font
+                                style="vertical-align: inherit;"></font></font></small>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+    </div>
+</div>
+
+
+<div class="main container text-center">
+    <div class="px-0 py-4 my-4 text-center">
+        <h2 class="display-8 fw-bold text-body-emphasis">Ответы на часто задаваемые вопросы</h2>
+    </div>
+</div>
+<div class="row justify-content-center">
+
+
+    <div style="width: 856px" id="accordion">
+        <h3>Собираете ли вы подарочные боксы?</h3>
+        <div>
+            <p>
+                Да, у нас есть такая услуга. Мы можем собрать подарочный бокс на любой вкус, объем и стоимость!
+            </p>
+        </div>
+        <h3>Сколько у вас разновидностей чая?</h3>
+        <div>
+            <p>
+                У нас в ассортименте 65 разновидностей чая.
+            </p>
+        </div>
+        <h3>В какой срок осуществляется доставка?</h3>
+        <div>
+            <p>
+                Доставка курьером осуществляется за три рабочих дня от момента оплаты.
+            </p>
+
+        </div>
+        <h3>У вас обновляется ассортимент?</h3>
+        <div>
+            <p>
+                Обновление ассортимента проходит каждые 15 дней.
+            </p>
+        </div>
+        <h3>Какого объема у вас пачки чая?</h3>
+        <div>
+            <p>
+                Чай пакуется в индивидуальную упаковку от 15 грамм до 1 кг. в зависимости от заказа.
+            </p>
+        </div>
+    </div>
+</div>
+<form>
+
+
+    <div class="container-md order" id="order">
+        <div class="pt-5 text-center">
+            <h2 class="display-8 fw-bold text-body-emphasis">Сделать заказ</h2>
+        </div>
+    </div>
+    <div class="container-md text-center">
+        <div class="row justify-content-center">
+
+            <div class="row g-3 needs-validation " style="width: 40%" id="form" novalidate>
+                <div class="col-md-4 text-start">
+                    Имя
+                    <input type="text" class="form-control" id="nameInput">
+                </div>
+                <div class="col-md-4 text-start">
+                    Фамилия
+                    <input type="text" class="form-control" id="userNameInput">
+
+                </div>
+                <div class="col-md-4 text-start">
+                    Телефон
+                    <div class="input-group has-validation">
+                        <input type="number" class="form-control" id="phoneInput">
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 text-start">
+                    Страна
+                    <input type="text" class="form-control" id="cantryInput">
+                </div>
+                <div class="col-md-6 text-start">
+                    Индекс
+                    <input type="text" class="form-control" id="codInput">
+                </div>
+                <div class="col-12 text-start">
+                    Адрес
+                    <input type="text" class="form-control" id="adressInput">
+                </div>
+                <div class="col-12 text-start">
+                    <button type="button" class="btn btn-sm btn btn-primary hvr-shutter-out-horizontal"
+                            id="btn-add-to-cart"
+                            style="width: 8rem;"><font
+                            style="vertical-align: inherit;"><font
+                            style="vertical-align: inherit;">Отправить</font></font>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</form>
+<div class="pt-5 text-start">
+    <footer class="footer mt-auto py-3 bg-body-tertiary pb-2 pt-3 text-start">
+        <div class="container-fluid">
+            <a class="nav-link" href="#">Все права защищены</a>
+        </div>
+    </footer>
+</div>
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-3.7.1.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="slick/slick.min.js"></script>
+<script src="js/main.js"></script>
+
+
+
+</body>
+</html>
